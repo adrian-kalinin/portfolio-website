@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Valencia;
+    src: url(fonts/Valencia/Valencia.ttf);
+}
+
+@font-face {
+    font-family: AvenirRoman;
+    src: url(fonts/Avenir/Avenir-Roman-12.ttf);
+}
+
+body, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.showcase {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.showcase div {
+    white-space: nowrap;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.showcase h1 {
+    font-family: Valencia;
+    font-size: 150px;
+}
+
+.showcase h2 {
+    font-family: AvenirRoman;
+    font-size: 50px;
+    font-weight: lighter;
+}
