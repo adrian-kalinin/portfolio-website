@@ -29,9 +29,17 @@
 
 /* COMMON */
 
-body, h1, h2 {
+body, h1, h2, h3, h4, h5, h6,p  {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: AvenirLight;;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: AvenirRoman;
 }
 
 .title-left {
@@ -84,25 +92,57 @@ body, h1, h2 {
 /* ABOUT ME SECTION */
 
 .about {
-    height: 60vh;
+    height: 50vh;
     width: 100vw;
 }
 
 .about .description {
     margin-left: 30vw;
     margin-right: 5vw;
-    margin-top: -22vh;
+    margin-top: -19vh;
 }
 
 .about .description p {
-    font-family: AvenirLight;
     font-size: 38px;
 }
 
 /* SKILLS SECTION */
 
+.skills .content {
+    display: grid;
+    height: 60vh;
+    width: 100vw;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    margin-top: -19vh;
+}
+
+.skills .section {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills h3 {
+    font-family: AvenirHeavy;
+    font-size: 60px;
+}
+
+.skills ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 26px;
+    font-family: AvenirRoman;
+    margin: 1vh;
+}
+
 /* EXPERIENCE SECTION */
 
 /* PROJECTS SECTION */
+
+/* IMPORTANT SECTION */
 
 /* CONTACT SECTION */
