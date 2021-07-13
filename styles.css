@@ -27,9 +27,29 @@
     }
   }
 
+/* COMMON */
+
 body, h1, h2 {
     margin: 0;
     padding: 0;
+}
+
+.title-left {
+    text-align: left;
+    margin-left: 3vw;
+    z-index: -100;
+}
+
+.title-right {
+    text-align: right;
+    margin-right: 3vw;
+    z-index: -100;
+}
+
+.title-left h1, .title-right h1 {
+    font-family: AvenirHeavy;
+    font-size: 200px;
+    color: #EEE;
 }
 
 /* SHOWCASE SECTION */
@@ -68,26 +88,21 @@ body, h1, h2 {
     width: 100vw;
 }
 
-.about .title {
-    text-align: left;
-    margin-left: 3vw;
-    z-index: -100;
-}
-
-.about h1 {
-    font-family: AvenirHeavy;
-    font-size: 200px;
-    color: #EEE;
-}
-
 .about .description {
     margin-left: 30vw;
     margin-right: 5vw;
     margin-top: -22vh;
 }
 
-.about p {
+.about .description p {
     font-family: AvenirLight;
     font-size: 38px;
 }
 
+/* SKILLS SECTION */
+
+/* EXPERIENCE SECTION */
+
+/* PROJECTS SECTION */
+
+/* CONTACT SECTION */
