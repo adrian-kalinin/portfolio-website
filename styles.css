@@ -108,10 +108,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* SKILLS SECTION */
 
+.skills {
+    height: 80vh;
+    width: 100vw;
+}
+
 .skills .content {
     display: grid;
-    height: 60vh;
-    width: 100vw;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
     margin-top: -19vh;
@@ -141,11 +144,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* EXPERIENCE SECTION */
 
+.experience {
+    height: 80vh;
+    width: 100vw;
+}
+
 .experience .content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 60vh;
-    width: 100vw;
     margin: 0 auto;
     margin-top: -19vh;
 }
@@ -187,3 +193,22 @@ h1, h2, h3, h4, h5, h6 {
 /* IMPORTANT SECTION */
 
 /* CONTACT SECTION */
+
+.contact {
+    height: 40vh;
+    width: 100vw;
+}
+
+.contact .content {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: -18vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.contact img {
+    width: 90px;
+}
