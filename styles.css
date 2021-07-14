@@ -44,13 +44,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .title-left {
     text-align: left;
-    margin-left: 3vw;
+    margin-left: 30px;
     z-index: -100;
 }
 
 .title-right {
     text-align: right;
-    margin-right: 3vw;
+    margin-right: 30px;
     z-index: -100;
 }
 
@@ -92,14 +92,14 @@ h1, h2, h3, h4, h5, h6 {
 /* ABOUT ME SECTION */
 
 .about {
-    height: 50vh;
     width: 100vw;
+    margin-bottom: 100px;
 }
 
 .about .description {
     margin-left: 30vw;
     margin-right: 5vw;
-    margin-top: -19vh;
+    margin-top: -150px;
 }
 
 .about .description p {
@@ -109,15 +109,15 @@ h1, h2, h3, h4, h5, h6 {
 /* SKILLS SECTION */
 
 .skills {
-    height: 80vh;
     width: 100vw;
+    margin-bottom: 100px;
 }
 
 .skills .content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
-    margin-top: -19vh;
+    margin-top: -150px;
 }
 
 .skills .section {
@@ -139,26 +139,26 @@ h1, h2, h3, h4, h5, h6 {
 .skills li {
     font-size: 26px;
     font-family: AvenirRoman;
-    margin: 1vh;
+    margin: 18px;
 }
 
 /* EXPERIENCE SECTION */
 
 .experience {
-    height: 80vh;
     width: 100vw;
+    margin-bottom: 100px;
 }
 
 .experience .content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
-    margin-top: -19vh;
+    margin-top: -150px;
 }
 
 .experience .job {
     margin: 0 auto;
-    padding: 0 2vw;
+    padding: 0 20px;
 }
 
 .experience h2 {
@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .experience h5 {
     font-size: 17px;
-    margin: 2vh 0;
+    margin: 16px 0;
     font-family: AvenirLight;
     font-weight: lighter;
 }
@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .experience li {
     font-size: 20px;
-    margin-top: 1vh;
+    margin-top: 16px;
 }
 
 .experience ul {
@@ -190,19 +190,71 @@ h1, h2, h3, h4, h5, h6 {
 
 /* PROJECTS SECTION */
 
-/* IMPORTANT SECTION */
+.projects {
+    width: 90vw;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.projects .content {
+    margin-top: -150px;
+}
+
+.projects .project {
+    margin-bottom: 40px;
+}
+
+.projects h2 {
+    font-family: AvenirHeavy;
+    font-size: 90px;
+    color: #000;
+}
+
+.projects a {
+    text-decoration: none;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+    text-decoration-color: #444;
+    transition: 0.2s;
+}
+
+.projects h2:hover {
+    color: #444;
+    transition: 0.2s;
+}
+
+.projects p {
+    font-size: 20px;
+}
+
+.projects ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.projects li {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.projects h5 {
+    font-size: 18px;
+    margin: 20px 0;
+}
 
 /* CONTACT SECTION */
 
 .contact {
-    height: 40vh;
     width: 100vw;
+    margin-bottom: 120px;
 }
 
 .contact .content {
     width: 60%;
     margin: 0 auto;
-    margin-top: -18vh;
+    margin-top: -140px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
