@@ -141,6 +141,47 @@ h1, h2, h3, h4, h5, h6 {
 
 /* EXPERIENCE SECTION */
 
+.experience .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 60vh;
+    width: 100vw;
+    margin: 0 auto;
+    margin-top: -19vh;
+}
+
+.experience .job {
+    margin: 0 auto;
+    padding: 0 2vw;
+}
+
+.experience h2 {
+    font-family: AvenirHeavy;
+    font-size: 50px;
+}
+
+.experience h5 {
+    font-size: 17px;
+    margin: 2vh 0;
+    font-family: AvenirLight;
+    font-weight: lighter;
+}
+
+.experience p {
+    font-size: 20px;
+    font-family: AvenirRoman;
+}
+
+.experience li {
+    font-size: 20px;
+    margin-top: 1vh;
+}
+
+.experience ul {
+    padding: 0;
+    list-style-type: none;
+}
+
 /* PROJECTS SECTION */
 
 /* IMPORTANT SECTION */
